@@ -23,6 +23,6 @@ This analysis represents a draft market study for a business plan or an executiv
 
 ### Data:
 
-Paris is divided in 20 boroughs called “Arrondissements” and 80 neighborhoods. Data about boroughs and neighborhoods is available online at https://www.data.gouv.fr/fr/datasets/quartiers-administratifs/. We will be using geographical coordinates for each neighborhood, their name and average price per Square Meter. 
+Paris is divided in 20 boroughs called “Arrondissements” and 80 neighborhoods. Data about boroughs and neighborhoods is available online. It can be found for free at https://www.data.gouv.fr/fr/datasets/quartiers-administratifs/ and https://datafrance.info/paris-75000. We will be using geographical coordinates for each neighborhood, their name and average price per Square Meter. 
 
 To compare neighborhoods among each other’s, we will use the Foursquare API that list all venues in specific areas. We will then be able to cluster the neighborhoods based on their similarities using unsupervised machine learning technique to select the best fit for our craft beer pub. 
